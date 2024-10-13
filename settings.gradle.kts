@@ -9,6 +9,13 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven("https://dl.bintray.com/kotlin/kotlin-eap")
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://repo1.maven.org/maven2/")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+        maven("https://jitpack.io")
+        maven("https://artifact.bytedance.com/repository/pangle")
     }
 }
 dependencyResolutionManagement {
@@ -16,9 +23,17 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://dl.bintray.com/kotlin/kotlin-eap")
+        maven("https://maven.aliyun.com/repository/google")
+        maven("https://maven.aliyun.com/repository/public")
+        maven("https://repo1.maven.org/maven2/")
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+        maven("https://jitpack.io")
+        maven("https://artifact.bytedance.com/repository/pangle")
     }
 }
 
 rootProject.name = "SuperTool"
 include(":app")
- 
+include(":ui")
+include(":core")
