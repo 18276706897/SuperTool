@@ -1,4 +1,4 @@
-package com.meiyinet.compass.customcompass.tools
+package dev.hasen.core.tools.keyboard
 
 import android.graphics.Rect
 import android.view.View

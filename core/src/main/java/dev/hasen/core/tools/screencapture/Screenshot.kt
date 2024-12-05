@@ -1,4 +1,4 @@
-package com.meiyinet.compass.customcompass.tools
+package dev.hasen.core.tools.screencapture
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

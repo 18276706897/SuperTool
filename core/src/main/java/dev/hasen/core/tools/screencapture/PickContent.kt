@@ -1,4 +1,4 @@
-package dev.hasen.core.tools
+package dev.hasen.core.tools.screencapture
 
 /**
  * 截取组件 temp
